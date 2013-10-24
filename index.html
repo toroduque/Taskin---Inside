@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tasking easy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="dist/css/jquery-ui.css" rel="stylesheet" media="screen">
+    <link href="dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="dist/css/taskingeasy.css" rel="stylesheet" media="screen">
+
+    <!-- google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body id="inside">
+    <div class="container">
+      <section class="row navbar">
+        <div class="col col-lg-2">
+          <img src="dist/img/logo-prueba.jpg" alt="">
+        </div>
+        <div class="col col-lg-4">
+          <h4>Welcome back Daniel!</h4>
+        </div>
+        <div class="col col-lg-6">
+          <ul class="list-inline pull-right">
+            <li><a href=""><h4>Settings</h4></a></li>
+            <li><a href=""><h4>Log out</h4></a></li>
+          </ul>
+        </div>
+      </section> <!-- navbar -->
+
+      <section class="row subnavbar">
+        <div class="col col-lg-offset-3 col-lg-2 ">
+          <h3 class="text-primary">Main Goal</h3>
+        </div>
+        <div class="col col-lg-7">
+          <h3>Create marketing plan for Christmas</h3>
+        </div>
+      </section> <!-- subnav -->
+      
+      <section class="row content">
+        <section class="col col-lg-3 left-menu">
+
+          <section id="main-info">
+              <h5>Project</h5>
+              <h3>Christmas campaign for new customers of 2013</h3>
+              <h5>Project Manager:</h5>
+              <h4>Jos&eacute; Alejandro Toro</h4>
+              <div class="row">
+                <div class="col col-lg-7">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100" style="width: 57%;">
+                      <span class="sr-only">57% Complete</span>
+                    </div>
+                  </div>
+                </div> <!-- cierra col-lg-6 progress bar -->
+                <div class="col col-lg-5">
+                  <h6>Progreso: 57%</h6>
+                </div>
+              </div> <!-- progress bar -->
+          </section> <!-- main-info -->
+          
+          <section id="teamwork">
+            <h5>Team:</h5>
+            <ul class="list-inline">
+              <li><a href=""><img src="dist/img/icon-submenu.jpg" alt="" class="img-responsive"></a></li>
+              <li><a href=""><img src="dist/img/icon-submenu.jpg" alt="" class="img-responsive"></a></li>
+              <li><a href=""><img src="dist/img/icon-submenu.jpg" alt="" class="img-responsive"></a></li>
+            </ul>
+          </section> <!-- workteam -->
+          <section id="project-actions">
+            <div id="project-actions-bg" class="col col-lg-12">
+              <a href=""><h4>Create new project +</h4></a>
+            </div>
+            <div id="project-actions-bg" class="col col-lg-12">
+              <a href=""><h4>Change to other projects</h4></a>
+            </div>
+          </section>
+        </section> <!-- left-menu -->
+
+
+        <section class="col col-lg-7 main-content">
+          <section class="row">
+            <div class="col col-lg-12" id="focused-task">
+              <div class="row">
+                <div class="col col-lg-3">
+                  <h3>Focused Task</h3>
+                </div>
+                <div class="col col-lg-9">
+                  <h4>Select and purchase the souvenirs for the customers AAA for Christmas</h4>
+                </div>
+              </div>
+            </div>
+          </section> <!-- focussed task -->
+
+          <section class="minitask">
+              <h4>Minitask</h4>
+            <section class="row">
+              <div class="col col-lg-3">
+                <div class="minitask-bg"><a href=""><h5>Add new Mini Task +</h5></a></div>
+                <div class="minitask-bg"><a href=""><h5>Completed Mini Tasks</h5></a></div>
+              </div>
+              <div class="col col-lg-9">
+                <ul id="sortable">
+                  <li class="drag-drop"><span style="cursor:move"><img class="pull-left" src="dist/img/drag-drop-icon.png"><p>Contact Mr. Hank to negotiate prices of souvenirs</p></span></li>
+                  <li class="drag-drop"><span style="cursor:move"><img class="pull-left" src="dist/img/drag-drop-icon.png"><p>Call FedEx to ship the souvenirs from China</p></span></li>
+                  <li class="drag-drop"><span style="cursor:move"><img class="pull-left" src="dist/img/drag-drop-icon.png"><p>Re-check that all customers AAA will receive souvenirs</p></span></li>
+                  <li class="drag-drop"><span style="cursor:move"><img class="pull-left" src="dist/img/drag-drop-icon.png"><p>Lorem ipsum dolor sit amet, consectur adipicing elit.</p></span></li>
+                </ul>
+              </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section class="col col-lg-12">
+              <ul class="list-inline pull-right">
+                <li><a href=""><span class="glyphicon glyphicon-ok minitask-icon"></span></a></li>
+                <li><a href=""><span class="glyphicon glyphicon-remove minitask-icon"></span></a></li>
+                <li><a href=""><span class="glyphicon glyphicon-transfer minitask-icon"></span></li>
+              </ul>
+            </section>
+          </section> <!-- mini task -->
+          
+        </section> <!-- main-content -->
+        <aside class="col col-lg-2 aside">
+          <section id="aside-actions">
+            <div id="aside-actions-bg" class="col col-lg-12">
+              <a href=""><h4>Finished tasks +</h4></a>
+            </div>
+            <div id="aside-actions-bg" class="col col-lg-12">
+              <a href=""><h4>Delegate tasks</h4></a>
+            </div>
+          </section>
+          <section id="aside-advice">
+            <p>&ldquo; The more choices we have, the greater the need for focus.&rdquo;</p>
+            <h6 class="pull-right"> - Tom Butler-Bowdon</h6>
+          </section>
+        </aside>
+
+        
+      </section> <!-- content -->
+
+    </div><!-- container -->
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/jquery.js"></script>
+    <script src="dist/js/jquery-ui.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/taskingeasy.js"></script>
+
+  </body>
+
+</html>
